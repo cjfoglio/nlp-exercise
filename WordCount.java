@@ -77,6 +77,7 @@ public class WordCount{
 					paragraphs++;
 				}
 			}
+			bf.close();
 		}
 		catch(IOException e){
 			System.out.println("IOException: " + e);
