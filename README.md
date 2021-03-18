@@ -29,7 +29,7 @@ You can replace 'example.txt' with the file path of your choosing.
     * A paragraph is counted: 
         * Whenever a line of a file is has no characters, i.e. anytime there is a line between sentences.
             * ```
-              Sentence 1. Sentence 2.<end of line>
+              Sentence 1.<space>Sentence 2.<end of line>
               <new line><end of line>
               <new line>Sentence 3.
               ```
