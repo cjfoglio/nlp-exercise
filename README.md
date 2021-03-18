@@ -35,7 +35,7 @@ You can replace 'example.txt' with the file path of your choosing.
               ```
         * Whenever the appliation reads the last line of the text file, only if the last line is not empty.
             * ```
-              Sentence 1. Sentence 2.<end of line><end of file>
+              Sentence 3.<space>Sentence 4.<end of line><end of file>
               ```
 
 <br> 
