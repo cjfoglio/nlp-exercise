@@ -39,7 +39,6 @@ You can replace 'example.txt' with the file path of your choosing.
               ```
 
 <br> 
---- 
 
 Created By Caleb Foglio
 
