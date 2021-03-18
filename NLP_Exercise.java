@@ -7,6 +7,7 @@ import java.util.*;
 
 public class NLP_Exercise{
 	public static void main(String [] args){
+		// Checks arguments
 		if (args.length < 1){
 			System.out.println("Missing argument: filename. \nPlease run by: java NLP_Exercise <path to file>");
 			System.exit(-1);
@@ -15,9 +16,12 @@ public class NLP_Exercise{
 			System.out.println("Too many arguments. \nPlease run by: java NLP_Exercise <path to file>");
 			System.exit(-1);
 		}
+
 		String filename = args[0];
 		WordCount wc = new WordCount(filename);
 		wc.scanFile();
+
+		// Print results
 		System.out.println(wc.toString());
 	}
 }

@@ -15,14 +15,23 @@ public class WordCount{
 		this.filename = filename;
 	}
 
+	// Changes the name of the file to scan
+	public void setFilename(String filename){
+		this.filename = filename;
+	}
+
 	// Scans file and determines word counts
 	public void scanFile(){
 		words = sentences = paragraphs = 0;
 		try{
+			// Creates a file object and a BufferedReader object
 			File file = new File(filename);
 			BufferedReader bf = new BufferedReader(new FileReader(file));
+			
+			// Stores each line of text in a string
 			String line = bf.readLine();
 
+			// Iterates through each character in the string
 			while (line != null){
 				// If the line is empty, increment paragraph count
 				if (line.equals("")){
@@ -74,6 +83,7 @@ public class WordCount{
 		}
 	}
 
+	// Used for printing values to screen
 	public String toString(){
 		String str = new String();
 		str = "\nFilename: " + filename+ "\nWords: " + words + "\nSentences: " + sentences + "\nParagraphs: " + paragraphs + "\n";

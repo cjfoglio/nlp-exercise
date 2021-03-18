@@ -2,7 +2,7 @@
 NLP exercise using Java made as part of the interviewing process for Realyze Intelligence.
 
 ## How to Run
-Run with any text file:
+Currently works using Java version 13.0.2:
 ```bash
 java NLP_Exercise example.txt
 ```
@@ -18,7 +18,7 @@ You can replace 'example.txt' with the file path of your choosing.
             * ```<space>word<end of line>```
     * All periods, quotes, commas, semi-colons, and dashes are considered a character
 * What is considered a sentence?
-    * A sentence a group of words nested between:
+    * A sentence is counted whenever there is:
         * A period followed by a space: 
             * ```Sentence 1.<space>New sentence 2```
         * A period followed by a quotation and then a space: 
