@@ -9,7 +9,7 @@ java NLP_Exercise example.txt
 You can replace 'example.txt' with the file path of your choosing.
 
 ## Explaination
-* The application reads a file line by line and iterates through each character in order to determine the current number of words, sentences, and paragraphs in any given text file.
+* The application reads a file line by line (using java.io.BufferedReader) and iterates through each character in order to determine the current number of words, sentences, and paragraphs in any given text file.
 * What is considered a word?
     * A word is any group of characters nested between:
         * Spaces: 
